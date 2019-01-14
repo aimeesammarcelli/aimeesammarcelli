@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "FuturaStd Book";
+    src: url("../typo/futura/FuturaStd-Book.otf");
+}
+
+@font-face {
+  font-family: "FuturaStd Bold";
+    src: url("../typo/futura/FuturaStd-Bold.otf");
+}

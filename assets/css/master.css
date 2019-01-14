@@ -1,0 +1,224 @@
+
+/*------------ GENERAL ------------*/
+
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'FuturaStd Book';
+  color: black;
+}
+
+p,h2 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 12px;
+  color: #616161;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  padding: 0 166px;
+}
+
+
+/*------------ HEADER ------------*/
+
+
+#sticky-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0 166px;
+  padding-top: 53px;
+  height: 117px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+
+  margin-left: 50px;
+}
+.responsive-header {
+  width: 100%;
+  position: fixed;
+  top: 117px;
+  background-color: #F0F0F0;
+  height: 0px;
+  z-index: 1;
+}
+#top-responsive {
+  top: 0;
+  height: 117px;
+  background-color: white;
+}
+#bottom-responsive {
+  z-index: 2;
+}
+
+.nav-left {
+  width: 40%;
+}
+.nav-left > h1 {
+  margin-top: 0;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.nav-right {
+  width: 60%;
+}
+.nav-right > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-right > ul > li {
+  list-style-type: none;
+  margin-left: 41px;
+}
+.nav-right > ul > li > a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.nav-right > ul > li > a:hover {
+  text-decoration: none;
+}
+
+
+/*------------ HERO ------------*/
+
+
+#hero-wrapper {
+  margin-top: 160px;
+  margin-bottom: 193px;
+}
+#hero-wrapper > p {
+  font-family: 'FuturaStd Bold';
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 80px;
+}
+
+
+/*------------ WHO WHAT ------------*/
+
+
+#who-wrapper > p, #what-wrapper > p {
+  font-family: 'FuturaStd Bold';
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+#who-wrapper {
+  margin-bottom: 86px;
+}
+#what-wrapper {
+  margin-bottom: 131px;
+}
+
+/*------------ PROJECTS ------------*/
+
+#projects-wrapper {
+  background-color: #F0F0F0;
+  padding-top: 85px;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-box {
+  margin-bottom: 11.5px;
+}
+.projects-box:nth-child(2n+1) {
+  margin-bottom: 145px;
+}
+
+.img-box {
+  width: 534px;
+  height: 360px;
+  background-color: blue;
+  box-shadow: 0 12px 21px 0 rgba(0,0,0,0.27);
+}
+
+.projects-box:nth-child(2n+1) .img-box {
+  background-color: red;
+  float: right;
+}
+.projects-box:nth-child(2n) .text-box {
+  position: relative;
+  top: -280px;
+  margin-left: 379px;
+}
+.projects-box:nth-child(2n+1) .text-box {
+  margin-top: 80px;
+}
+
+
+.text-box > p:nth-child(1) {
+  font-family: 'FuturaStd Bold';
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 30px;
+  margin-bottom: 51px;
+}
+.text-box > p:nth-child(2) {
+  font-size: 16px;
+}
+
+.dribbble {
+  margin-bottom: 112px;
+}
+.dribbble > a {
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+  margin-bottom: 112px;
+}
+
+
+/*------------ EXPERIENCE ------------*/
+
+#experience-wrapper {
+  padding-top: 156px;
+}
+#experience-wrapper > h2 {
+  margin-bottom: 4px;
+}
+
+.experience > p {
+  margin-top: 36px;
+  font-family: 'FuturaStd-Bold';
+  font-weight: bold;
+  font-size: 16px;
+}
+.experience > p:nth-child(2n+1) {
+  margin-top: 56px;
+  font-size: 36px;
+}
+
+
+/*------------ CONTACT ------------*/
+
+#contact-wrapper {
+  margin-top: 201px;
+  margin-bottom: 100px;
+}
+#contact-wrapper > p {
+  font-family: 'FuturaStd-Bold';
+  font-weight: bold;
+  font-size: 36px;
+}
+.contact-media {
+  margin-top: 44px;
+}
+.contact-media > a {
+  margin-right: 50px;
+}
+.contact-media > a > img {
+  height: 46px;
+  width: 46px;
+}
