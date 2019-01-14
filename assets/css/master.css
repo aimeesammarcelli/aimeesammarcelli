@@ -30,7 +30,7 @@ h2 {
 #sticky-nav {
   display: flex;
   flex-direction: row;
-  padding: 0 166px;
+  padding: 0 110px;
   padding-top: 53px;
   height: 117px;
   position: fixed;
@@ -124,7 +124,7 @@ h2 {
 /*------------ PROJECTS ------------*/
 
 #projects-wrapper {
-  background-color: #F0F0F0;
+  background-color: #F8F8F8;
   padding-top: 85px;
   display: flex;
   flex-direction: column;
@@ -151,7 +151,7 @@ h2 {
 .projects-box:nth-child(2n) .text-box {
   position: relative;
   top: -280px;
-  margin-left: 379px;
+  margin-left: 50%;
 }
 .projects-box:nth-child(2n+1) .text-box {
   margin-top: 80px;
