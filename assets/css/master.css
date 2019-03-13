@@ -222,3 +222,16 @@ h2 {
   height: 46px;
   width: 46px;
 }
+
+/*------------ responsive ------------*/
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+
+.moi{
+  display: none;
+}
+ 
+}
