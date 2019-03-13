@@ -62,7 +62,7 @@ h2 {
 }
 .nav-left > h1 {
   margin-top: 0;
-  font-size: 25px;
+  font-size: 20px;
   padding-top: 5px;
 }
 
@@ -80,7 +80,7 @@ h2 {
 }
 .nav-right > ul > li > a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -93,12 +93,11 @@ h2 {
 
 
 #hero-wrapper {
-  margin-top: 160px;
-  margin-bottom: 193px;
+  margin-top: 13%;
 }
 #hero-wrapper > p {
   font-family: 'FuturaStd Bold';
-  font-size: 90px;
+  font-size: 70px;
   font-weight: bold;
   line-height: 80px;
 }
@@ -109,37 +108,38 @@ h2 {
 
 #who-wrapper > p, #what-wrapper > p {
   font-family: 'FuturaStd Bold';
-  font-size: 26px;
+  font-size: 20px;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 #who-wrapper {
-  margin-bottom: 86px;
+  margin-top: 5%;
 }
 #what-wrapper {
-  margin-bottom: 131px;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /*------------ PROJECTS ------------*/
 
 #projects-wrapper {
   background-color: #F8F8F8;
-  padding-top: 85px;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
 }
 
 .projects-box {
-  margin-bottom: 11.5px;
+  margin-bottom: 5%;
 }
 .projects-box:nth-child(2n+1) {
   margin-bottom: 145px;
 }
 
 .img-box {
-  width: 534px;
-  height: 360px;
+  width: 41%;
+  height: 100%;
   background-color: blue;
   box-shadow: 0 12px 21px 0 rgba(0,0,0,0.27);
 }
@@ -161,7 +161,7 @@ h2 {
 .text-box > p:nth-child(1) {
   font-family: 'FuturaStd Bold';
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 30px;
   margin-bottom: 51px;
 }
@@ -170,53 +170,53 @@ h2 {
 }
 
 .dribbble {
-  margin-bottom: 112px;
+  margin-bottom: 5%;
 }
 .dribbble > a {
   color: black;
   text-decoration: underline;
   font-size: 16px;
-  margin-bottom: 112px;
+  margin-bottom: 5%;
 }
 
 
 /*------------ EXPERIENCE ------------*/
 
 #experience-wrapper {
-  padding-top: 156px;
+  padding-top: 5%;
 }
 #experience-wrapper > h2 {
-  margin-bottom: 4px;
+  margin-bottom: 5%;
 }
 
 .experience > p {
-  margin-top: 36px;
+  margin-top: 5%;
   font-family: 'FuturaStd-Bold';
   font-weight: bold;
   font-size: 16px;
 }
 .experience > p:nth-child(2n+1) {
   margin-top: 56px;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 
 /*------------ CONTACT ------------*/
 
 #contact-wrapper {
-  margin-top: 201px;
-  margin-bottom: 100px;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 #contact-wrapper > p {
   font-family: 'FuturaStd-Bold';
   font-weight: bold;
-  font-size: 36px;
+  font-size: 20px;
 }
 .contact-media {
-  margin-top: 44px;
+  margin-top: 5%;
 }
 .contact-media > a {
-  margin-right: 50px;
+  margin-right: 10%;
 }
 .contact-media > a > img {
   height: 46px;
